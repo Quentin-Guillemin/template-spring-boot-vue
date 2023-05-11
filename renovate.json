@@ -1,0 +1,5 @@
+{
+  "extends": ["config:base", "schedule:weekly"],
+  "rebaseWhen": "behind-base-branch",
+  "enabledManagers": ["maven", "yarn"]
+}
