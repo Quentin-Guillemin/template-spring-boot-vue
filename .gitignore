@@ -45,6 +45,7 @@ dist
 dist-ssr
 coverage
 *.local
+src/main/resources/private.yml
 
 ### Tests ###
 playwright-report

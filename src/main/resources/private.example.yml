@@ -1,0 +1,9 @@
+security-configuration:
+  soffit:
+    jwt.signatureKey: ""
+
+spring:
+  datasource:
+    url: jdbc:mariadb://SERVER:3306/DBNAME?useUnicode=true&characterEncoding=UTF-8&autoreconnect=true&useLegacyDatetimeCode=false&serverTimezone=Europe/Paris
+    username:
+    password:

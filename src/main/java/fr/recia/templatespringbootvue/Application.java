@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (C) 2023 GIP-RECIA, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,38 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-@import "./base.css";
+package fr.recia.templatespringbootvue;
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-  font-weight: normal;
-}
+@SpringBootApplication
+public class Application {
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
 }
