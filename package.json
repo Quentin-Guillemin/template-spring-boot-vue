@@ -32,7 +32,7 @@
     "@vue/eslint-config-prettier": "^7.1.0",
     "@vue/eslint-config-typescript": "^11.0.3",
     "@vue/test-utils": "^2.3.2",
-    "@vue/tsconfig": "^0.3.2",
+    "@vue/tsconfig": "^0.4.0",
     "dotenv-checker": "^1.1.5",
     "eslint": "^8.42.0",
     "eslint-plugin-vue": "^9.14.1",
