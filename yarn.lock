@@ -1009,10 +1009,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/tsconfig@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "@vue/tsconfig@npm:0.3.2"
-  checksum: 54288cbd3886728ee2560e44299a2ce2b92fa97b70123a8aeb0ce52cb5990f280ae91ef41eb8cb58346cdaa3ca5b360f0e194628272e14aa21c5d358d6618160
+"@vue/tsconfig@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@vue/tsconfig@npm:0.4.0"
+  checksum: 1acdd0c5702e163c071fec7ba4ad7eede0a37aaf473e4afc015dad2dd200f85c638831394ca9b9c058cf9d133f4cf92f8d1c99a401f173d5bf1e40700fdcd678
   languageName: node
   linkType: hard
 
@@ -4628,7 +4628,7 @@ __metadata:
     "@vue/eslint-config-prettier": ^7.1.0
     "@vue/eslint-config-typescript": ^11.0.3
     "@vue/test-utils": ^2.3.2
-    "@vue/tsconfig": ^0.3.2
+    "@vue/tsconfig": ^0.4.0
     dotenv-checker: ^1.1.5
     eslint: ^8.42.0
     eslint-plugin-vue: ^9.14.1
