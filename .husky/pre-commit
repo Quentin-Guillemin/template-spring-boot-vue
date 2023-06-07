@@ -1,6 +1,16 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-./mvnw notice:check
-./mvnw license:check
+if ./mvnw notice:check; then
+  echo "Notice OK"
+else
+  echo "Fix notice"
+  ./mvnw notice:generate
+fi
+if ./mvnw license:check; then
+  echo "License OK"
+else
+  echo "Fix license"
+  ./mvnw license:format
+fi
 yarn lint-staged
