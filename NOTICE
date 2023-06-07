@@ -24,7 +24,6 @@ This project includes:
   ASM based accessors helper used by json-smart under The Apache Software License, Version 2.0
   AspectJ Weaver under Eclipse Public License - v 2.0
   AssertJ Core under Apache License, Version 2.0
-  Bouncy Castle Provider under Bouncy Castle Licence
   Byte Buddy (without dependencies) under Apache License, Version 2.0
   Byte Buddy agent under Apache License, Version 2.0
   Caffeine cache under Apache License, Version 2.0
@@ -61,8 +60,6 @@ This project includes:
   JBoss Logging 3 under Apache License, version 2.0
   JCL 1.2 implemented over SLF4J under Apache License, Version 2.0
   JJWT :: API under Apache License, Version 2.0
-  JJWT :: Extensions :: Jackson under Apache License, Version 2.0
-  JJWT :: Impl under Apache License, Version 2.0
   JSON library from Android SDK under Apache License 2.0
   JSON Small and Fast Parser under The Apache Software License, Version 2.0
   json-path under The Apache Software License, Version 2.0
