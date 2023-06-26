@@ -84,7 +84,7 @@
     <dependency>
       <groupId>org.jasig.portal</groupId>
       <artifactId>uPortal-soffit-renderer</artifactId>
-      <version>5.14.0</version>
+      <version>5.15.0</version>
     </dependency>
 	</dependencies>
 
